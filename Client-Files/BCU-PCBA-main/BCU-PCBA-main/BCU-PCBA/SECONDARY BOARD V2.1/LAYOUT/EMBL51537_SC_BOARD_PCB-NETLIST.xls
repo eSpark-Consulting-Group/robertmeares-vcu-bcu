@@ -1,0 +1,272 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head><title>Net List Report</title></head>
+<body>
+<b><u>Design Name</u>&nbsp;D:/EMBITAL-SC-20210906/PCB/20210913/EMBL51537_SC_BOARD.brd</b><br>
+<b><u>Date</u>&nbsp;Tue Sep 14 09:18:46 2021</b><br>
+<body>
+<table align=center border=1><caption><b><u>Net List Report</u></b></caption>
+<tr>
+<td><b>Net Name</b></td>
+<td><b>Net Pins</b></td>
+</tr>
+<tr>
+<td nowrap=true>12V_START1</td>
+<td nowrap=true>J1.14 J2.6</td>
+</tr>
+<tr>
+<td nowrap=true>+5V USB</td>
+<td nowrap=true>J2.2 L22.2 TP1.1</td>
+</tr>
+<tr>
+<td nowrap=true>CHASSIS_GND</td>
+<td nowrap=true>C30.1 C31.1 C32.1 MH1.1 MH2.1 MH3.1 MH4.1 MH5.1 MH6.1 MH7.1 MH8.1</td>
+</tr>
+<tr>
+<td nowrap=true>DM_RELAY_1</td>
+<td nowrap=true>J1.5 R17.2 TP19.1</td>
+</tr>
+<tr>
+<td nowrap=true>DM_RELAY_2</td>
+<td nowrap=true>J1.6 R19.2 TP20.1</td>
+</tr>
+<tr>
+<td nowrap=true>GND</td>
+<td nowrap=true>C1.2 C2.2 C3.2 C4.2 C5.2 C6.1 C7.2 C8.2 C9.2 C10.2 C11.2 C12.2 C13.2 C14.2 C15.1 C16.1 C17.1 C18.2 C19.2 C20.2 C21.2 C22.2 C23.2 C24.2 C25.2 C26.1 C27.1 C30.2 C31.2 C32.2 C33.2 C34.2 J1.1 J1.P3 J1.SH1 J1.SH2 J1.SH3 J1.SH4 J2.1 J2.7 J2.14 Q1.2 Q2.2 Q3.3 Q4.3 R31.2 R33.2 R35.2 R37.2 U1.1 U2.2 U2.8 U5.8 U11.1 U11.3 U12.2 U12.3 U12.7</td>
+</tr>
+<tr>
+<td nowrap=true>HV_GND</td>
+<td nowrap=true>L16.1 R16.1 R16.2 R18.1 R18.2 TP18.1 U13.4 U14.4</td>
+</tr>
+<tr>
+<td nowrap=true>I2C2_SCL</td>
+<td nowrap=true>J1.10 R2.2 U2.14</td>
+</tr>
+<tr>
+<td nowrap=true>I2C2_SDA</td>
+<td nowrap=true>J1.9 R3.2 U2.15</td>
+</tr>
+<tr>
+<td nowrap=true>I2C3_SCL</td>
+<td nowrap=true>J1.12 R9.2 U11.10 U12.6</td>
+</tr>
+<tr>
+<td nowrap=true>I2C3_SDA</td>
+<td nowrap=true>J1.11 R8.2 U11.9 U12.1</td>
+</tr>
+<tr>
+<td nowrap=true>I2C_ADC_RDY</td>
+<td nowrap=true>J1.13 R10.2 U11.2</td>
+</tr>
+<tr>
+<td nowrap=true>I2C_ANI0</td>
+<td nowrap=true>J2.15 L18.1 TP10.1</td>
+</tr>
+<tr>
+<td nowrap=true>I2C_ANI0_IC</td>
+<td nowrap=true>C19.1 D18.1 R11.2 R30.2 R31.1 TP14.1</td>
+</tr>
+<tr>
+<td nowrap=true>I2C_ANI1</td>
+<td nowrap=true>J2.16 L19.1 TP11.1</td>
+</tr>
+<tr>
+<td nowrap=true>I2C_ANI1_IC</td>
+<td nowrap=true>C21.1 D19.1 R12.2 R32.2 R33.1 TP15.1</td>
+</tr>
+<tr>
+<td nowrap=true>I2C_ANI2</td>
+<td nowrap=true>J2.17 L20.1 TP12.1</td>
+</tr>
+<tr>
+<td nowrap=true>I2C_ANI2_IC</td>
+<td nowrap=true>C23.1 D20.1 R13.2 R34.2 R35.1 TP16.1</td>
+</tr>
+<tr>
+<td nowrap=true>I2C_ANI3</td>
+<td nowrap=true>J2.18 L21.1 TP13.1</td>
+</tr>
+<tr>
+<td nowrap=true>I2C_ANI3_IC</td>
+<td nowrap=true>C25.1 D21.1 R14.2 R36.2 R37.1 TP17.1</td>
+</tr>
+<tr>
+<td nowrap=true>I2C_THS_INT</td>
+<td nowrap=true>J1.15 R15.1 U12.4</td>
+</tr>
+<tr>
+<td nowrap=true>IOEXP_INT</td>
+<td nowrap=true>J1.7 R28.2 U2.13</td>
+</tr>
+<tr>
+<td nowrap=true>IOEXP_RESET</td>
+<td nowrap=true>J1.8 R29.2 U2.3</td>
+</tr>
+<tr>
+<td nowrap=true>ISO_RELAY1_IN1</td>
+<td nowrap=true>J2.3 U13.2</td>
+</tr>
+<tr>
+<td nowrap=true>ISO_RELAY2_IN1</td>
+<td nowrap=true>J2.4 U14.2</td>
+</tr>
+<tr>
+<td nowrap=true>N03287</td>
+<td nowrap=true>U2.5 U5.1</td>
+</tr>
+<tr>
+<td nowrap=true>N03291</td>
+<td nowrap=true>U2.6 U5.2</td>
+</tr>
+<tr>
+<td nowrap=true>N03295</td>
+<td nowrap=true>U2.7 U5.3</td>
+</tr>
+<tr>
+<td nowrap=true>N06560</td>
+<td nowrap=true>R14.1 U11.7</td>
+</tr>
+<tr>
+<td nowrap=true>N06575</td>
+<td nowrap=true>R13.1 U11.6</td>
+</tr>
+<tr>
+<td nowrap=true>N06579</td>
+<td nowrap=true>R12.1 U11.5</td>
+</tr>
+<tr>
+<td nowrap=true>N06583</td>
+<td nowrap=true>R11.1 U11.4</td>
+</tr>
+<tr>
+<td nowrap=true>N07201</td>
+<td nowrap=true>L26.1 U3.4</td>
+</tr>
+<tr>
+<td nowrap=true>N07205</td>
+<td nowrap=true>L25.1 U3.5</td>
+</tr>
+<tr>
+<td nowrap=true>N07536</td>
+<td nowrap=true>L23.1 U4.4</td>
+</tr>
+<tr>
+<td nowrap=true>N07541</td>
+<td nowrap=true>L24.1 U4.5</td>
+</tr>
+<tr>
+<td nowrap=true>N08317</td>
+<td nowrap=true>L27.1 U6.4</td>
+</tr>
+<tr>
+<td nowrap=true>N13136</td>
+<td nowrap=true>C2.1 C3.1 L22.1 U1.6 U1.7 U1.8</td>
+</tr>
+<tr>
+<td nowrap=true>N15818</td>
+<td nowrap=true>D22.2 Q1.4 Q3.2 U13.8</td>
+</tr>
+<tr>
+<td nowrap=true>N16558</td>
+<td nowrap=true>Q1.1 R17.1</td>
+</tr>
+<tr>
+<td nowrap=true>N17913</td>
+<td nowrap=true>Q2.1 R19.1</td>
+</tr>
+<tr>
+<td nowrap=true>N17917</td>
+<td nowrap=true>D23.2 Q2.4 Q4.2 U14.8</td>
+</tr>
+<tr>
+<td nowrap=true>N410547</td>
+<td nowrap=true>C18.1 L18.2 R30.1</td>
+</tr>
+<tr>
+<td nowrap=true>N411738</td>
+<td nowrap=true>C20.1 L19.2 R32.1</td>
+</tr>
+<tr>
+<td nowrap=true>N412167</td>
+<td nowrap=true>C22.1 L20.2 R34.1</td>
+</tr>
+<tr>
+<td nowrap=true>N412611</td>
+<td nowrap=true>C24.1 L21.2 R36.1</td>
+</tr>
+<tr>
+<td nowrap=true>N637569</td>
+<td nowrap=true>J2.5 L16.2</td>
+</tr>
+<tr>
+<td nowrap=true>N652017</td>
+<td nowrap=true>Q1.3 R38.2</td>
+</tr>
+<tr>
+<td nowrap=true>N652047</td>
+<td nowrap=true>Q2.3 R39.2</td>
+</tr>
+<tr>
+<td nowrap=true>N652154</td>
+<td nowrap=true>Q4.1 R39.1</td>
+</tr>
+<tr>
+<td nowrap=true>N652754</td>
+<td nowrap=true>Q3.1 R38.1</td>
+</tr>
+<tr>
+<td nowrap=true>RELAY1_OUT1</td>
+<td nowrap=true>C26.2 J2.9 L26.2 TP5.1</td>
+</tr>
+<tr>
+<td nowrap=true>RELAY1_OUT2</td>
+<td nowrap=true>C27.2 J2.10 L25.2 TP8.1</td>
+</tr>
+<tr>
+<td nowrap=true>RELAY2_OUT1</td>
+<td nowrap=true>C15.2 J2.11 L23.2 TP6.1</td>
+</tr>
+<tr>
+<td nowrap=true>RELAY2_OUT2</td>
+<td nowrap=true>C16.2 J2.12 L24.2 TP9.1</td>
+</tr>
+<tr>
+<td nowrap=true>RELAY3_OUT1</td>
+<td nowrap=true>C17.2 J2.8 L27.2 TP7.1</td>
+</tr>
+<tr>
+<td nowrap=true>RELAY_1</td>
+<td nowrap=true>D24.2 U3.8 U5.16</td>
+</tr>
+<tr>
+<td nowrap=true>RELAY_2</td>
+<td nowrap=true>D25.2 U4.8 U5.15</td>
+</tr>
+<tr>
+<td nowrap=true>RELAY_3</td>
+<td nowrap=true>D26.2 U5.14 U6.8</td>
+</tr>
+<tr>
+<td nowrap=true>USB_EN</td>
+<td nowrap=true>J1.17 U1.4</td>
+</tr>
+<tr>
+<td nowrap=true>USB_OC</td>
+<td nowrap=true>J1.16 R1.2 U1.5</td>
+</tr>
+<tr>
+<td nowrap=true>VDD1</td>
+<td nowrap=true>C6.2 C9.1 C10.1 D22.1 D23.1 D24.1 D25.1 D26.1 J1.2 J1.P4 TP3.1 U3.1 U4.1 U5.9 U6.2 U6.5 U13.5 U14.5</td>
+</tr>
+<tr>
+<td nowrap=true>VDD2</td>
+<td nowrap=true>C1.1 C11.1 C12.1 J1.3 J1.P2 R1.1 TP2.1 U1.2 U1.3 U3.3 U4.3 U4.6</td>
+</tr>
+<tr>
+<td nowrap=true>VDD3</td>
+<td nowrap=true>C4.1 C5.1 C7.1 C8.1 C13.1 C14.1 C33.1 C34.1 D18.2 D19.2 D20.2 D21.2 J1.4 J1.P1 R2.1 R3.1 R8.1 R9.1 R10.1 R15.2 R28.1 R29.1 TP4.1 U2.1 U2.16 U3.6 U11.8 U12.5</td>
+</tr>
+</table>
+</body>
+</body>
+</html>

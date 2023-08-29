@@ -1,0 +1,791 @@
+\t (00:00:06) allegro_free_viewer 17.4 S019 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Fri Apr 29 17:16:29 2022
+\t (00:00:06)         Host=FIREESCAPE User=firee Pid=4540 CPUs=16
+\t (00:00:06) CmdLine= C:\Cadence\PCBViewers_2019\tools\bin\allegro_free_viewer.exe
+\t (00:00:06) 
+\t (00:00:07) Starting new design...
+\i (00:00:07) trapsize 1836
+\i (00:00:07) trapsize 1177
+\i (00:00:07) updateport PropPane
+\i (00:00:08) ucpedit 
+\i (00:01:29) open 
+\i (00:01:32) fillin "EMBL51745_Carrier_Board-S2_20210716.brd"
+\t (00:01:32) Opening existing design...
+\i (00:01:35) trapsize 5604
+\d (00:01:35) Design opened: Z:/Docs/tarform/pcb/Embitel Bike Interface Unit-20210915/v 2.0-20210917T171214Z-001/v 2.0/CARRIER BOARD(1)/LAYOUT/EMBL51745_Carrier_Board-S2_20210716/EMBL51745_Carrier_Board-S2_20210716.brd
+\i (00:01:35) updateport PropPane
+\i (00:01:35) ucpedit 
+\i (00:01:35) pick grid 1018.95 3336.14
+\t (00:01:35) last pick:  1018.95 3336.14
+\i (00:01:44) QtSignal ADTableContainerWidget ADTableFilterLineEdit editingFinished "WAKE1_MICO"
+\i (00:01:45) QtSignal ADTableContainerWidget NetsTable selectionChanged
+\i (00:01:45) QtSignal ADTableContainerWidget NetsTable selectionChanged
+\i (00:01:46) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:01:47) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:01:47) QtSignal ADTableContainerWidget NetsTable doubleClicked 0 1
+\i (00:01:47) trapsize 3899
+\i (00:01:47) updateport SearchPane
+\i (00:01:47) updateport PropPane
+\i (00:01:47) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:01:51) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Top 1
+\i (00:01:52) updateport SearchPane
+\i (00:01:52) updateport PropPane
+\i (00:01:53) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L2_Gnd1" +
+\i (00:01:53) QtSignal 1
+\i (00:01:53) updateport SearchPane
+\i (00:01:53) updateport PropPane
+\i (00:01:53) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L3_Sig1" +
+\i (00:01:53) QtSignal 1
+\i (00:01:53) updateport SearchPane
+\i (00:01:53) updateport PropPane
+\i (00:01:54) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:01:54) QtSignal 1
+\i (00:01:54) updateport SearchPane
+\i (00:01:54) updateport PropPane
+\i (00:01:55) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L5_Gnd2" +
+\i (00:01:55) QtSignal 1
+\i (00:01:55) updateport SearchPane
+\i (00:01:55) updateport PropPane
+\i (00:01:55) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:01:55) QtSignal 1
+\i (00:01:55) updateport SearchPane
+\i (00:01:55) updateport PropPane
+\i (00:01:56) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L7_Gnd3" +
+\i (00:01:56) QtSignal 1
+\i (00:01:56) updateport SearchPane
+\i (00:01:56) updateport PropPane
+\i (00:01:57) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 1
+\i (00:01:57) updateport SearchPane
+\i (00:01:57) updateport PropPane
+\i (00:01:59) QtSignal VisibilityLayersObjArWidget VisLayerTable layerColorChanged Top "#fe2512"
+\i (00:01:59) QtSignal VisibilityLayersObjArWidget VisLayerTable layerColorChanged Top "#fe2512"
+\i (00:01:59) updateport SearchPane
+\i (00:01:59) updateport PropPane
+\i (00:02:05) QtSignal VisibilityLayersObjArWidget VisLayerTable layerColorChanged "L3_Sig1" "#fb9701"
+\i (00:02:05) QtSignal VisibilityLayersObjArWidget VisLayerTable layerColorChanged "L3_Sig1" "#fb9701"
+\i (00:02:05) updateport SearchPane
+\i (00:02:05) updateport PropPane
+\i (00:02:09) QtSignal VisibilityLayersObjArWidget VisLayerTable layerColorChanged "L6_Sig2" "#fefe33"
+\i (00:02:10) QtSignal VisibilityLayersObjArWidget VisLayerTable layerColorChanged "L6_Sig2" "#fefe33"
+\i (00:02:10) updateport SearchPane
+\i (00:02:10) updateport PropPane
+\i (00:02:13) QtSignal VisibilityLayersObjArWidget VisLayerTable layerColorChanged Bottom "#0249fe"
+\i (00:02:13) QtSignal VisibilityLayersObjArWidget VisLayerTable layerColorChanged Bottom "#0249fe"
+\i (00:02:13) updateport SearchPane
+\i (00:02:13) updateport PropPane
+\i (00:02:19) QtSignal VisibilityLayersObjArWidget VisLayerTable layerColorChanged "L4_Pwr" "#8300af"
+\i (00:02:19) QtSignal VisibilityLayersObjArWidget VisLayerTable layerColorChanged "L4_Pwr" "#8300af"
+\i (00:02:19) updateport SearchPane
+\i (00:02:19) updateport PropPane
+\i (00:02:24) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:02:24) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:02:25) QtSignal ADTableContainerWidget NetsTable doubleClicked 0 1
+\i (00:02:25) trapsize 3899
+\i (00:02:25) updateport SearchPane
+\i (00:02:25) updateport PropPane
+\i (00:02:25) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:02:25) QtSignal ADTableContainerWidget NetsTable customContextMenuRequest 0 1
+\i (00:02:27) QtFillin "Select on Canvas"
+\i (00:02:27) trapsize 3899
+\i (00:02:27) updateport SearchPane
+\i (00:02:27) updateport PropPane
+\i (00:02:28) QtSignal ADTableContainerWidget NetsTable selectionChanged
+\i (00:02:31) zoom in 1 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom in 5596.60 2398.50
+\i (00:02:31) trapsize 1949
+\i (00:02:31) zoom in 1 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom in 5596.60 2398.50
+\i (00:02:31) trapsize 975
+\i (00:02:34) drag_start grid 4842.17 2209.41
+\i (00:02:34) drag_stop 4900.65 2519.37
+\i (00:02:35) QtSignal ADTableContainerWidget NetsTable selectionChanged
+\i (00:02:36) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:02:37) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:02:37) QtSignal ADTableContainerWidget NetsTable doubleClicked 0 1
+\i (00:02:37) trapsize 3899
+\i (00:02:37) updateport SearchPane
+\i (00:02:37) updateport PropPane
+\i (00:02:37) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:02:37) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:02:46) QtSignal ADTableContainerWidget NetsTable customContextMenuRequest 0 1
+\i (00:02:47) QtFillin "Select on Canvas"
+\i (00:02:47) trapsize 3899
+\i (00:02:47) updateport SearchPane
+\i (00:02:47) updateport PropPane
+\i (00:02:48) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:03:12) 3d 
+\i (00:03:15) QtSignal 3DUniFilterDialog UniFilterOkButton clicked
+\i (00:03:16) ucpedit 
+\i (00:03:16) updateport SearchPane
+\i (00:03:16) updateport PropPane
+\i (00:03:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 393 262 713 424 1 1 0 +
+\i (00:03:18) QtSignal "3012.61" "2000.88" "-83.4859"
+\i (00:03:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 528 391 848 553 1 0 +
+\i (00:03:19) QtSignal 0 "3503.08" "2174.39" "-471.68"
+\i (00:03:20) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 510 435 830 597 1 1 0 +
+\i (00:03:20) QtSignal "3512.87" "2076.07" "-604.088"
+\i (00:03:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 409 462 729 624 1 0 +
+\i (00:03:21) QtSignal 0 "3297.66" "1794.52" "-685.338"
+\i (00:03:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 47 490 367 652 1 1 0 +
+\i (00:03:24) QtSignal "2441.85" "869.914" "-769.597"
+\i (00:03:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 65 490 385 652 1 0 +
+\i (00:03:25) QtSignal 0 "2486.12" "914.179" "-769.597"
+\i (00:03:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 65 490 385 652 2 2 0 +
+\i (00:03:25) QtSignal "2486.12" "914.179" "-769.597"
+\i (00:03:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 50 432 370 594 2 0 +
+\i (00:03:26) QtSignal 0 "2377.98" "948.546" "-595.06"
+\i (00:03:26) QtSignal pcb3dViewer pcb3dViewerCanvas RMB "[237798 94854.6 -59506]"
+\i (00:03:27) QtFillin ""
+\i (00:03:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 33 393 353 555 1 1 0 +
+\i (00:03:27) QtSignal "2288.26" "954.653" "-477.699"
+\i (00:03:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 33 393 353 555 1 0 +
+\i (00:03:27) QtSignal 0 "2288.26" "954.653" "-477.699"
+\i (00:03:39) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 623 512 943 674 1 1 0 +
+\i (00:03:39) QtSignal "3885.35" "2259.35" "-835.801"
+\i (00:03:40) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 333 102 653 264 1 0 +
+\i (00:03:40) QtSignal 0 "2668.5" "2049.9" "397.996"
+\i (00:03:42) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:04:02) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L2_Gnd1" +
+\i (00:04:02) QtSignal 0
+\i (00:04:02) updateport SearchPane
+\i (00:04:02) updateport PropPane
+\i (00:04:03) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:04:03) QtSignal 0
+\i (00:04:03) updateport SearchPane
+\i (00:04:03) updateport PropPane
+\i (00:04:04) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L5_Gnd2" +
+\i (00:04:04) QtSignal 0
+\i (00:04:05) updateport SearchPane
+\i (00:04:05) updateport PropPane
+\i (00:04:08) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L7_Gnd3" +
+\i (00:04:08) QtSignal 0
+\i (00:04:08) updateport SearchPane
+\i (00:04:08) updateport PropPane
+\i (00:04:23) QtSignal VisibilityLayersObjArWidget VisLayerTable objCellVisibilityChanged Top Shapes +
+\i (00:04:23) QtSignal 0
+\i (00:04:23) updateport SearchPane
+\i (00:04:23) updateport PropPane
+\i (00:04:24) QtSignal VisibilityLayersObjArWidget VisLayerTable objCellVisibilityChanged Top Shapes +
+\i (00:04:24) QtSignal 1
+\i (00:04:24) updateport SearchPane
+\i (00:04:24) updateport PropPane
+\i (00:04:24) QtSignal VisibilityLayersObjArWidget VisLayerTable objCellVisibilityChanged Top Shapes +
+\i (00:04:24) QtSignal 0
+\i (00:04:24) updateport SearchPane
+\i (00:04:24) updateport PropPane
+\i (00:04:26) QtSignal VisibilityLayersObjArWidget VisLayerTable objCellVisibilityChanged "L3_Sig1" +
+\i (00:04:26) QtSignal Shapes 0
+\i (00:04:26) updateport SearchPane
+\i (00:04:26) updateport PropPane
+\i (00:04:27) QtSignal VisibilityLayersObjArWidget VisLayerTable objCellVisibilityChanged "L6_Sig2" +
+\i (00:04:27) QtSignal Shapes 0
+\i (00:04:27) updateport SearchPane
+\i (00:04:27) updateport PropPane
+\i (00:04:29) QtSignal VisibilityLayersObjArWidget VisLayerTable objCellVisibilityChanged All Shapes +
+\i (00:04:29) QtSignal 1
+\i (00:04:29) updateport SearchPane
+\i (00:04:29) updateport PropPane
+\i (00:04:29) QtSignal VisibilityLayersObjArWidget VisLayerTable objCellVisibilityChanged All Shapes +
+\i (00:04:29) QtSignal 0
+\i (00:04:29) updateport SearchPane
+\i (00:04:29) updateport PropPane
+\i (00:04:31) zoom in 1 
+\i (00:04:31) setwindow pcb
+\i (00:04:31) zoom in 5276.89 2538.86
+\i (00:04:31) trapsize 1949
+\i (00:04:34) pick grid 3444.43 3322.54
+\t (00:04:34) last pick:  3444.43 3322.54
+\i (00:04:34) updateport SearchPane
+\i (00:04:34) updateport PropPane
+\i (00:04:35) pick grid 3444.43 3322.54
+\t (00:04:35) last pick:  3444.43 3322.54
+\i (00:04:35) updateport SearchPane
+\i (00:04:35) updateport PropPane
+\i (00:04:37) pick grid 3421.04 3345.93
+\t (00:04:37) last pick:  3421.04 3345.93
+\i (00:04:37) updateport SearchPane
+\i (00:04:37) updateport PropPane
+\i (00:04:38) pick grid 3421.04 3345.93
+\t (00:04:38) last pick:  3421.04 3345.93
+\i (00:04:38) pick grid dbl 3421.04 3345.93
+\t (00:04:38) last pick:  3421.04 3345.93
+\i (00:04:38) updateport SearchPane
+\i (00:04:38) updateport PropPane
+\i (00:04:39) pick grid 3421.04 3345.93
+\t (00:04:39) last pick:  3421.04 3345.93
+\i (00:04:39) updateport SearchPane
+\i (00:04:39) updateport PropPane
+\i (00:04:40) pick grid 3421.04 3345.93
+\t (00:04:40) last pick:  3421.04 3345.93
+\i (00:04:40) updateport SearchPane
+\i (00:04:40) updateport PropPane
+\i (00:04:44) QtSignal VisibilityLayersObjArWidget VisLayerTable objCellVisibilityChanged All Shapes +
+\i (00:04:44) QtSignal 1
+\i (00:04:44) updateport SearchPane
+\i (00:04:44) updateport PropPane
+\i (00:04:54) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L3_Sig1" +
+\i (00:04:54) QtSignal 0
+\i (00:04:54) updateport SearchPane
+\i (00:04:54) updateport PropPane
+\i (00:04:55) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L3_Sig1" +
+\i (00:04:55) QtSignal 1
+\i (00:04:55) updateport SearchPane
+\i (00:04:55) updateport PropPane
+\i (00:04:55) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L3_Sig1" +
+\i (00:04:55) QtSignal 0
+\i (00:04:55) updateport SearchPane
+\i (00:04:55) updateport PropPane
+\i (00:04:56) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L3_Sig1" +
+\i (00:04:56) QtSignal 1
+\i (00:04:56) updateport SearchPane
+\i (00:04:56) updateport PropPane
+\i (00:04:56) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L3_Sig1" +
+\i (00:04:56) QtSignal 0
+\i (00:04:56) updateport SearchPane
+\i (00:04:56) updateport PropPane
+\i (00:04:58) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:04:58) QtSignal 0
+\i (00:04:58) updateport SearchPane
+\i (00:04:58) updateport PropPane
+\i (00:04:59) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:04:59) QtSignal 1
+\i (00:04:59) updateport SearchPane
+\i (00:04:59) updateport PropPane
+\i (00:05:00) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:05:00) QtSignal 0
+\i (00:05:00) updateport SearchPane
+\i (00:05:00) updateport PropPane
+\i (00:05:02) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:05:02) QtSignal 1
+\i (00:05:02) updateport SearchPane
+\i (00:05:02) updateport PropPane
+\i (00:05:03) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:05:03) QtSignal 0
+\i (00:05:03) updateport SearchPane
+\i (00:05:03) updateport PropPane
+\i (00:05:05) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:05:05) QtSignal 1
+\i (00:05:05) updateport SearchPane
+\i (00:05:05) updateport PropPane
+\i (00:05:06) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 0
+\i (00:05:06) updateport SearchPane
+\i (00:05:06) updateport PropPane
+\i (00:05:06) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 1
+\i (00:05:07) updateport SearchPane
+\i (00:05:07) updateport PropPane
+\i (00:05:07) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 0
+\i (00:05:07) updateport SearchPane
+\i (00:05:07) updateport PropPane
+\i (00:05:07) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 1
+\i (00:05:07) updateport SearchPane
+\i (00:05:07) updateport PropPane
+\i (00:05:08) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 0
+\i (00:05:08) updateport SearchPane
+\i (00:05:08) updateport PropPane
+\i (00:05:08) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 1
+\i (00:05:08) updateport SearchPane
+\i (00:05:08) updateport PropPane
+\i (00:05:08) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 0
+\i (00:05:08) updateport SearchPane
+\i (00:05:08) updateport PropPane
+\i (00:05:09) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 1
+\i (00:05:09) updateport SearchPane
+\i (00:05:09) updateport PropPane
+\i (00:05:09) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 0
+\i (00:05:09) updateport SearchPane
+\i (00:05:09) updateport PropPane
+\i (00:05:10) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 1
+\i (00:05:10) updateport SearchPane
+\i (00:05:10) updateport PropPane
+\i (00:05:18) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 0
+\i (00:05:18) updateport SearchPane
+\i (00:05:18) updateport PropPane
+\i (00:05:18) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 1
+\i (00:05:18) updateport SearchPane
+\i (00:05:18) updateport PropPane
+\i (00:05:20) QtSignal VisibilityLayersObjArWidget VisLayerTable objCellVisibilityChanged All Shapes +
+\i (00:05:20) QtSignal 1
+\i (00:05:20) updateport SearchPane
+\i (00:05:20) updateport PropPane
+\i (00:05:21) QtSignal VisibilityLayersObjArWidget VisLayerTable objCellVisibilityChanged All Shapes +
+\i (00:05:21) QtSignal 0
+\i (00:05:21) updateport SearchPane
+\i (00:05:21) updateport PropPane
+\i (00:06:26) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Top 1
+\i (00:06:26) updateport SearchPane
+\i (00:06:26) updateport PropPane
+\i (00:06:27) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Top 0
+\i (00:06:27) updateport SearchPane
+\i (00:06:27) updateport PropPane
+\i (00:06:28) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Top 1
+\i (00:06:28) updateport SearchPane
+\i (00:06:28) updateport PropPane
+\i (00:06:30) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Top 0
+\i (00:06:30) updateport SearchPane
+\i (00:06:30) updateport PropPane
+\i (00:06:38) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:06:38) QtSignal 1
+\i (00:06:38) updateport SearchPane
+\i (00:06:38) updateport PropPane
+\i (00:06:39) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:06:39) QtSignal 0
+\i (00:06:39) updateport SearchPane
+\i (00:06:39) updateport PropPane
+\i (00:06:40) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:06:40) QtSignal 1
+\i (00:06:40) updateport SearchPane
+\i (00:06:40) updateport PropPane
+\i (00:06:43) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:06:43) QtSignal 0
+\i (00:06:43) updateport SearchPane
+\i (00:06:43) updateport PropPane
+\i (00:06:45) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:06:45) QtSignal 1
+\i (00:06:45) updateport SearchPane
+\i (00:06:45) updateport PropPane
+\i (00:06:54) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:06:54) QtSignal 0
+\i (00:06:54) updateport SearchPane
+\i (00:06:54) updateport PropPane
+\i (00:06:55) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:06:55) QtSignal 1
+\i (00:06:55) updateport SearchPane
+\i (00:06:55) updateport PropPane
+\i (00:07:00) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L6_Sig2" +
+\i (00:07:00) QtSignal 0
+\i (00:07:00) updateport SearchPane
+\i (00:07:00) updateport PropPane
+\i (00:07:42) QtSignal VisibilityLayersWidget VisibilityLayersLayersWidget keyPressEvent 16777251 +
+\i (00:07:42) QtSignal 134217728 false 1
+\i (00:09:27) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Top 1
+\i (00:09:27) updateport SearchPane
+\i (00:09:27) updateport PropPane
+\i (00:09:34) zoom in 1 
+\i (00:09:34) setwindow pcb
+\i (00:09:34) zoom in 1818.60 2293.24
+\i (00:09:34) trapsize 975
+\i (00:09:34) zoom in 1 
+\i (00:09:34) setwindow pcb
+\i (00:09:34) zoom in 1818.61 2293.24
+\i (00:09:34) trapsize 487
+\i (00:09:34) zoom in 1 
+\i (00:09:34) setwindow pcb
+\i (00:09:34) zoom in 1818.60 2293.24
+\i (00:09:34) trapsize 244
+\i (00:09:34) zoom in 1 
+\i (00:09:34) setwindow pcb
+\i (00:09:34) zoom in 1818.60 2293.24
+\i (00:09:34) trapsize 122
+\i (00:09:35) zoom out 1 
+\i (00:09:35) setwindow pcb
+\i (00:09:35) zoom out 1818.60 2293.24
+\i (00:09:35) trapsize 244
+\i (00:09:35) zoom out 1 
+\i (00:09:35) setwindow pcb
+\i (00:09:35) zoom out 1818.60 2293.24
+\i (00:09:35) trapsize 487
+\i (00:09:36) roam x -96 
+\i (00:09:36) roam x -96
+\i (00:09:36) roam x -96 
+\i (00:09:36) roam x -96
+\i (00:09:36) roam x -96 
+\i (00:09:36) roam x -96
+\i (00:09:37) pick grid 1536.94 2293.25
+\t (00:09:37) last pick:  1536.94 2293.25
+\i (00:09:37) updateport SearchPane
+\i (00:09:37) updateport PropPane
+\i (00:09:41) pick grid 2033.09 2449.21
+\t (00:09:41) last pick:  2033.09 2449.21
+\i (00:09:41) updateport SearchPane
+\i (00:09:41) updateport PropPane
+\i (00:09:44) pick grid 2029.19 2448.23
+\t (00:09:44) last pick:  2029.19 2448.23
+\i (00:09:44) updateport SearchPane
+\i (00:09:44) updateport PropPane
+\i (00:09:50) pick grid 1960.96 2373.18
+\t (00:09:50) last pick:  1960.96 2373.18
+\i (00:09:50) updateport SearchPane
+\i (00:09:50) updateport PropPane
+\i (00:10:03) pick grid 2143.23 2425.81
+\t (00:10:03) last pick:  2143.23 2425.81
+\i (00:10:06) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:10:06) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:10:06) QtSignal ADTableContainerWidget NetsTable customContextMenuRequest 0 1
+\i (00:10:07) QtFillin "Select on Canvas"
+\i (00:10:07) trapsize 3899
+\i (00:10:07) updateport SearchPane
+\i (00:10:07) updateport PropPane
+\i (00:10:08) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:10:11) zoom in 1 
+\i (00:10:11) setwindow pcb
+\i (00:10:11) zoom in 2048.63 2390.70
+\i (00:10:11) trapsize 1949
+\i (00:10:11) zoom in 1 
+\i (00:10:11) setwindow pcb
+\i (00:10:11) zoom in 2048.63 2390.71
+\i (00:10:11) trapsize 975
+\i (00:10:11) zoom in 1 
+\i (00:10:11) setwindow pcb
+\i (00:10:11) zoom in 2048.64 2390.71
+\i (00:10:11) trapsize 487
+\i (00:10:11) zoom in 1 
+\i (00:10:11) setwindow pcb
+\i (00:10:11) zoom in 2048.64 2390.71
+\i (00:10:11) trapsize 244
+\i (00:10:11) zoom in 1 
+\i (00:10:11) setwindow pcb
+\i (00:10:11) zoom in 2048.63 2390.72
+\i (00:10:11) trapsize 122
+\i (00:10:12) zoom out 1 
+\i (00:10:12) setwindow pcb
+\i (00:10:12) zoom out 2048.63 2390.72
+\i (00:10:12) trapsize 244
+\i (00:19:29) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L2_Gnd1" +
+\i (00:19:29) QtSignal 1
+\i (00:19:29) updateport SearchPane
+\i (00:19:29) updateport PropPane
+\i (00:19:31) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:19:31) QtSignal 1
+\i (00:19:31) updateport SearchPane
+\i (00:19:31) updateport PropPane
+\i (00:19:32) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:19:32) QtSignal 0
+\i (00:19:32) updateport SearchPane
+\i (00:19:32) updateport PropPane
+\i (00:19:32) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:19:32) QtSignal 1
+\i (00:19:32) updateport SearchPane
+\i (00:19:32) updateport PropPane
+\i (00:19:35) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:19:35) QtSignal 0
+\i (00:19:35) updateport SearchPane
+\i (00:19:35) updateport PropPane
+\i (00:19:35) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:19:35) QtSignal 1
+\i (00:19:35) updateport SearchPane
+\i (00:19:35) updateport PropPane
+\i (00:19:38) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:19:38) QtSignal 0
+\i (00:19:38) updateport SearchPane
+\i (00:19:38) updateport PropPane
+\i (00:19:41) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:19:41) QtSignal 1
+\i (00:19:41) updateport SearchPane
+\i (00:19:41) updateport PropPane
+\i (00:19:42) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L7_Gnd3" +
+\i (00:19:42) QtSignal 1
+\i (00:19:42) updateport SearchPane
+\i (00:19:42) updateport PropPane
+\i (00:19:43) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L7_Gnd3" +
+\i (00:19:43) QtSignal 0
+\i (00:19:43) updateport SearchPane
+\i (00:19:43) updateport PropPane
+\i (00:19:44) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L7_Gnd3" +
+\i (00:19:44) QtSignal 1
+\i (00:19:44) updateport SearchPane
+\i (00:19:44) updateport PropPane
+\i (00:19:45) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L7_Gnd3" +
+\i (00:19:45) QtSignal 0
+\i (00:19:45) updateport SearchPane
+\i (00:19:45) updateport PropPane
+\i (00:19:46) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L7_Gnd3" +
+\i (00:19:46) QtSignal 1
+\i (00:19:46) updateport SearchPane
+\i (00:19:46) updateport PropPane
+\i (00:19:46) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L7_Gnd3" +
+\i (00:19:46) QtSignal 0
+\i (00:19:46) updateport SearchPane
+\i (00:19:46) updateport PropPane
+\i (00:19:47) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L7_Gnd3" +
+\i (00:19:47) QtSignal 1
+\i (00:19:47) updateport SearchPane
+\i (00:19:47) updateport PropPane
+\i (00:19:48) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L7_Gnd3" +
+\i (00:19:48) QtSignal 0
+\i (00:19:48) updateport SearchPane
+\i (00:19:48) updateport PropPane
+\i (00:19:48) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L7_Gnd3" +
+\i (00:19:48) QtSignal 1
+\i (00:19:48) updateport SearchPane
+\i (00:19:48) updateport PropPane
+\i (00:21:10) QtSignal VisibilityLayersWidget VisibilityLayersLayersWidget keyPressEvent 16777248 +
+\i (00:21:10) QtSignal 33554432 false 1
+\i (00:23:11) QtSignal VisibilityLayersWidget VisibilityLayersLayersWidget keyPressEvent 16777251 +
+\i (00:23:11) QtSignal 134217728 false 1
+\i (00:31:06) zoom out 1 
+\i (00:31:06) setwindow pcb
+\i (00:31:06) zoom out 2102.24 2244.03
+\i (00:31:06) trapsize 487
+\i (00:31:06) zoom out 1 
+\i (00:31:06) setwindow pcb
+\i (00:31:06) zoom out 2102.25 2244.03
+\i (00:31:06) trapsize 975
+\i (00:31:06) zoom out 1 
+\i (00:31:06) setwindow pcb
+\i (00:31:06) zoom out 2102.24 2244.03
+\i (00:31:06) trapsize 1949
+\i (00:31:06) zoom out 1 
+\i (00:31:06) setwindow pcb
+\i (00:31:06) zoom out 2102.24 2244.04
+\i (00:31:06) trapsize 3899
+\i (00:31:07) zoom out 1 
+\i (00:31:07) setwindow pcb
+\i (00:31:07) zoom out 2102.24 2244.03
+\i (00:31:07) trapsize 7798
+\i (00:31:08) zoom in 1 
+\i (00:31:08) setwindow pcb
+\i (00:31:08) zoom in 2102.23 2244.04
+\i (00:31:08) trapsize 3899
+\i (00:31:08) zoom in 1 
+\i (00:31:08) setwindow pcb
+\i (00:31:08) zoom in 2102.24 2244.04
+\i (00:31:08) trapsize 1949
+\i (00:31:08) zoom in 1 
+\i (00:31:08) setwindow pcb
+\i (00:31:08) zoom in 2102.24 2244.05
+\i (00:31:08) trapsize 975
+\i (00:31:11) roam y 96 
+\i (00:31:11) roam y 96
+\i (00:31:11) roam y 96 
+\i (00:31:11) roam y 96
+\i (00:31:11) roam y 96 
+\i (00:31:11) roam y 96
+\i (00:31:12) roam x 96 
+\i (00:31:12) roam x 96
+\i (00:31:12) roam x 96 
+\i (00:31:12) roam x 96
+\i (00:31:12) roam y 96 
+\i (00:31:12) roam y 96
+\i (00:31:12) roam x 96 
+\i (00:31:12) roam x 96
+\i (00:31:12) roam y 96 
+\i (00:31:12) roam y 96
+\i (00:31:12) roam x 96 
+\i (00:31:12) roam x 96
+\i (00:31:13) roam y 96 
+\i (00:31:13) roam y 96
+\i (00:31:13) roam x 96 
+\i (00:31:13) roam x 96
+\i (00:31:13) roam x 96 
+\i (00:31:13) roam x 96
+\i (00:31:13) roam x 96 
+\i (00:31:13) roam x 96
+\i (00:31:14) roam y 96 
+\i (00:31:14) roam y 96
+\i (00:31:14) roam x 96 
+\i (00:31:14) roam x 96
+\i (00:31:15) roam x 96 
+\i (00:31:15) roam x 96
+\i (00:31:15) roam y -96 
+\i (00:31:15) roam y -96
+\i (00:31:15) roam y -96 
+\i (00:31:15) roam y -96
+\i (00:31:21) roam y -96 
+\i (00:31:21) roam y -96
+\i (00:31:21) roam y -96 
+\i (00:31:21) roam y -96
+\i (00:31:21) roam y -96 
+\i (00:31:21) roam y -96
+\i (00:31:22) roam y -96 
+\i (00:31:22) roam y -96
+\i (00:31:27) roam y -96 
+\i (00:31:27) roam y -96
+\i (00:31:27) roam y -96 
+\i (00:31:27) roam y -96
+\i (00:31:27) roam y -96 
+\i (00:31:27) roam y -96
+\i (00:31:27) roam y -96 
+\i (00:31:27) roam y -96
+\i (00:31:27) roam y -96 
+\i (00:31:27) roam y -96
+\i (00:31:37) roam x -96 
+\i (00:31:37) roam x -96
+\i (00:31:37) roam y -96 
+\i (00:31:37) roam y -96
+\i (00:31:37) roam y -96 
+\i (00:31:37) roam y -96
+\i (00:31:47) roam x -96 
+\i (00:31:47) roam x -96
+\i (00:31:47) roam x -96 
+\i (00:31:47) roam x -96
+\i (00:31:47) roam x -96 
+\i (00:31:47) roam x -96
+\i (00:31:47) roam x -96 
+\i (00:31:47) roam x -96
+\i (00:31:48) roam y -96 
+\i (00:31:48) roam y -96
+\i (00:31:48) roam y -96 
+\i (00:31:48) roam y -96
+\i (00:31:48) roam x 96 
+\i (00:31:48) roam x 96
+\i (00:31:50) roam y 96 
+\i (00:31:50) roam y 96
+\i (00:31:50) roam y 96 
+\i (00:31:50) roam y 96
+\i (00:31:50) roam y 96 
+\i (00:31:50) roam y 96
+\i (00:31:50) roam y 96 
+\i (00:31:50) roam y 96
+\i (00:31:51) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:31:51) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 1
+\i (00:31:51) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 3
+\i (00:31:52) QtSignal ADTableContainerWidget NetsTable customContextMenuRequest 0 3
+\i (00:31:53) QtFillin "Select on Canvas"
+\i (00:31:53) trapsize 3899
+\i (00:31:53) updateport SearchPane
+\i (00:31:53) updateport PropPane
+\i (00:31:53) QtSignal ADTableContainerWidget NetsTable selectionChanged 0 3
+\i (00:31:55) zoom in 1 
+\i (00:31:55) setwindow pcb
+\i (00:31:55) zoom in 3397.64 3497.98
+\i (00:31:55) trapsize 1949
+\i (00:31:55) zoom in 1 
+\i (00:31:55) setwindow pcb
+\i (00:31:55) zoom in 3397.64 3497.98
+\i (00:31:55) trapsize 975
+\i (00:31:55) zoom in 1 
+\i (00:31:55) setwindow pcb
+\i (00:31:55) zoom in 3397.64 3497.99
+\i (00:31:55) trapsize 487
+\i (00:31:55) zoom in 1 
+\i (00:31:55) setwindow pcb
+\i (00:31:55) zoom in 3397.64 3497.99
+\i (00:31:55) trapsize 244
+\i (00:31:56) roam y -96 
+\i (00:31:56) roam y -96
+\i (00:31:57) roam y -96 
+\i (00:31:57) roam y -96
+\i (00:31:58) roam x 96 
+\i (00:31:58) roam x 96
+\i (00:32:44) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Top 0
+\i (00:32:44) updateport SearchPane
+\i (00:32:44) updateport PropPane
+\i (00:32:48) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L2_Gnd1" +
+\i (00:32:48) QtSignal 0
+\i (00:32:48) updateport SearchPane
+\i (00:32:48) updateport PropPane
+\i (00:32:51) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:32:51) QtSignal 0
+\i (00:32:51) updateport SearchPane
+\i (00:32:51) updateport PropPane
+\i (00:32:51) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:32:51) QtSignal 1
+\i (00:32:51) updateport SearchPane
+\i (00:32:51) updateport PropPane
+\i (00:32:52) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:32:52) QtSignal 0
+\i (00:32:52) updateport SearchPane
+\i (00:32:52) updateport PropPane
+\i (00:32:52) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:32:52) QtSignal 1
+\i (00:32:52) updateport SearchPane
+\i (00:32:52) updateport PropPane
+\i (00:32:53) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:32:53) QtSignal 0
+\i (00:32:53) updateport SearchPane
+\i (00:32:53) updateport PropPane
+\i (00:32:53) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:32:53) QtSignal 1
+\i (00:32:53) updateport SearchPane
+\i (00:32:53) updateport PropPane
+\i (00:32:55) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:32:55) QtSignal 0
+\i (00:32:55) updateport SearchPane
+\i (00:32:55) updateport PropPane
+\i (00:32:56) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:32:56) QtSignal 1
+\i (00:32:56) updateport SearchPane
+\i (00:32:56) updateport PropPane
+\i (00:32:57) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:32:57) QtSignal 0
+\i (00:32:57) updateport SearchPane
+\i (00:32:57) updateport PropPane
+\i (00:32:58) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:32:58) QtSignal 1
+\i (00:32:58) updateport SearchPane
+\i (00:32:58) updateport PropPane
+\i (00:32:59) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:32:59) QtSignal 0
+\i (00:32:59) updateport SearchPane
+\i (00:32:59) updateport PropPane
+\i (00:33:01) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:33:01) QtSignal 1
+\i (00:33:01) updateport SearchPane
+\i (00:33:01) updateport PropPane
+\i (00:33:02) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:33:02) QtSignal 0
+\i (00:33:02) updateport SearchPane
+\i (00:33:02) updateport PropPane
+\i (00:33:03) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:33:03) QtSignal 1
+\i (00:33:03) updateport SearchPane
+\i (00:33:03) updateport PropPane
+\i (00:33:05) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L2_Gnd1" +
+\i (00:33:05) QtSignal 1
+\i (00:33:05) updateport SearchPane
+\i (00:33:05) updateport PropPane
+\i (00:33:05) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L2_Gnd1" +
+\i (00:33:05) QtSignal 0
+\i (00:33:05) updateport SearchPane
+\i (00:33:05) updateport PropPane
+\i (00:33:05) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L2_Gnd1" +
+\i (00:33:05) QtSignal 1
+\i (00:33:05) updateport SearchPane
+\i (00:33:05) updateport PropPane
+\i (00:33:08) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L5_Gnd2" +
+\i (00:33:08) QtSignal 1
+\i (00:33:08) updateport SearchPane
+\i (00:33:08) updateport PropPane
+\i (00:33:08) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L5_Gnd2" +
+\i (00:33:08) QtSignal 0
+\i (00:33:08) updateport SearchPane
+\i (00:33:08) updateport PropPane
+\i (00:33:09) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L5_Gnd2" +
+\i (00:33:09) QtSignal 1
+\i (00:33:09) updateport SearchPane
+\i (00:33:09) updateport PropPane
+\i (00:33:11) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L4_Pwr" +
+\i (00:33:11) QtSignal 0
+\i (00:33:11) updateport SearchPane
+\i (00:33:11) updateport PropPane
+\i (00:33:14) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L7_Gnd3" +
+\i (00:33:14) QtSignal 0
+\i (00:33:14) updateport SearchPane
+\i (00:33:14) updateport PropPane
+\i (00:33:14) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L7_Gnd3" +
+\i (00:33:14) QtSignal 1
+\i (00:33:14) updateport SearchPane
+\i (00:33:14) updateport PropPane
+\i (00:33:15) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 1
+\i (00:33:15) updateport SearchPane
+\i (00:33:15) updateport PropPane
+\i (00:33:21) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 0
+\i (00:33:21) updateport SearchPane
+\i (00:33:21) updateport PropPane
+\i (00:33:22) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 1
+\i (00:33:22) updateport SearchPane
+\i (00:33:22) updateport PropPane
+\i (00:33:47) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L2_Gnd1" +
+\i (00:33:47) QtSignal 0
+\i (00:33:47) updateport SearchPane
+\i (00:33:47) updateport PropPane
+\i (00:33:49) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L5_Gnd2" +
+\i (00:33:49) QtSignal 0
+\i (00:33:49) updateport SearchPane
+\i (00:33:49) updateport PropPane
+\i (00:33:51) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "L7_Gnd3" +
+\i (00:33:51) QtSignal 0
+\i (00:33:51) updateport SearchPane
+\i (00:33:51) updateport PropPane
+\i (00:57:56) exit 
+\e (00:57:56) Do you want to save the changes you made to EMBL51745_Carrier_Board-S2_20210716.brd?
+\i (00:57:56) fillin menu_cancel 
+\i (00:57:56) ucpedit 
+\i (00:57:56) updateport SearchPane
+\i (00:57:56) updateport PropPane
+\i (00:57:57) exit 
+\e (00:57:57) Do you want to save the changes you made to EMBL51745_Carrier_Board-S2_20210716.brd?
+\i (00:57:59) fillin no 
+\t (00:58:00)     Journal end - Fri Apr 29 18:14:22 2022

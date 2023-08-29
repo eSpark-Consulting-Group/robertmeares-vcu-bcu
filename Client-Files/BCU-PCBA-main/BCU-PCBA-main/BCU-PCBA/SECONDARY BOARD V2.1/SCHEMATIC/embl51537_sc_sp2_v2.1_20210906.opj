@@ -1,0 +1,75 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[09/17/21]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (File ".\embl51537_sc_sp2_v2.1_20210906.dsn"
+      (Type "Schematic Design")
+      (DisplayName ".\embl51537_sc_sp2_v2.1_20210906.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\embl51537_sc_sp2_v2.1_20210906.dsn")
+      (Path "Design Resources" ".\embl51537_sc_sp2_v2.1_20210906.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources" ".\embl51537_sc_sp2_v2.1_20210906.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 468"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 912 24 486")
+        (Scroll "-151 -3")
+        (Zoom "59")
+        (Occurrence "/"))
+      (Path
+         "I:\HARDWARE\TARFORM\SVN\TRUNK\DOCS\SPIN2\SECONDARY BOARD\SCHEMATIC\SPIN2.1\V2.1\EMBL51537_SC_SP2_V2.1_20210906.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE01_CONTENT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 912 24 486")
+        (Scroll "-103 -2")
+        (Zoom "44")
+        (Occurrence "/"))
+      (Path
+         "I:\HARDWARE\TARFORM\SVN\TRUNK\DOCS\SPIN2\SECONDARY BOARD\SCHEMATIC\SPIN2.1\V2.1\EMBL51537_SC_SP2_V2.1_20210906.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE04_TEMP & HUMIDITY"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 912 24 486")
+        (Scroll "-57 45")
+        (Zoom "50")
+        (Occurrence "/"))
+      (Path
+         "I:\HARDWARE\TARFORM\SVN\TRUNK\DOCS\SPIN2\SECONDARY BOARD\SCHEMATIC\SPIN2.1\V2.1\EMBL51537_SC_SP2_V2.1_20210906.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE02_CONNECTOR")))
+  (MPSSessionName "emb-suhabal"))

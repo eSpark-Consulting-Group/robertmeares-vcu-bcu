@@ -1,0 +1,14 @@
+\t (00:00:07) allegro_free_viewer 17.4 S019 Windows SPB 64-bit Edition
+\t (00:00:07)     Journal start - Fri Mar  4 15:18:31 2022
+\t (00:00:07)         Host=FIREESCAPE User=firee Pid=18772 CPUs=16
+\t (00:00:07) CmdLine= C:\Cadence\PCBViewers_2019\tools\bin\allegro_free_viewer.exe
+\t (00:00:07) 
+\t (00:00:07) Starting new design...
+\i (00:00:07) trapsize 1836
+\i (00:00:08) trapsize 1177
+\i (00:00:08) updateport PropPane
+\i (00:00:08) ucpedit 
+\i (00:00:14) opencd 'Z:/Docs/tarform/pcb/Embitel Bike Interface Unit-20210915/v 2.0-20210917T171214Z-001/v 2.0/CARRIER BOARD(1)/LAYOUT/EMBL51745_Carrier_Board-S2_20210716/EMBL51745_Carrier_Board-S2_20210716.brd' 
+\t (00:00:14) Opening existing design...
+\i (00:00:17) trapsize 5604
+\t (00:00:17)     Journal end - Fri Mar  4 15:18:42 2022

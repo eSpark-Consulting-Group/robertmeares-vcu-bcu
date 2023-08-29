@@ -1,0 +1,101 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : EMBL51537_SC_BOARD.brd                        )
+(    Software Version : 17.4S019                                      )
+(    Date/Time        : Fri Nov 18 14:01:43 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  VDD2                 24C12VIA             (3033.252 3765.748) TOP/BOTTOM 
+  VDD2                 24C12VIA             (3082.000 3765.748) TOP/BOTTOM 
+  VDD2                 24C12VIA             (3082.000 3810.000) TOP/BOTTOM 
+  VDD2                 24C12VIA             (3032.000 3810.000) TOP/BOTTOM 
+  VDD2                 24C12VIA             (1489.000 3050.000) TOP/BOTTOM 
+  VDD2                 24C12VIA             (1443.988 3050.000) TOP/BOTTOM 
+  VDD2                 24C12VIA             (1170.000 3052.000) TOP/BOTTOM 
+  VDD2                 24C12VIA             (1210.988 3051.000) TOP/BOTTOM 
+  VDD2                 24C12VIA             (1254.000 3051.000) TOP/BOTTOM 
+  VDD1                 24C12VIA             (2523.000 4633.000) TOP/BOTTOM 
+  VDD1                 24C12VIA             (2493.000 4147.000) TOP/BOTTOM 
+  VDD1                 24C12VIA             (2307.520 3240.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (1935.166 3044.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (1696.000 3232.704) TOP/BOTTOM 
+  VDD1                 24C12VIA             (2548.000 4222.000) TOP/BOTTOM 
+  VDD1                 24C12VIA             (2548.000 4147.000) TOP/BOTTOM 
+  VDD1                 24C12VIA             (1746.000 3232.704) TOP/BOTTOM 
+  VDD1                 24C12VIA             (1746.000 3182.704) TOP/BOTTOM 
+  VDD1                 24C12VIA             (1696.000 3182.704) TOP/BOTTOM 
+  VDD1                 24C12VIA             (2307.520 3290.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (2257.520 3290.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (2257.520 3240.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (2216.520 3593.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (2216.520 3643.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (2266.520 3643.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (2266.520 3593.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (1541.520 3763.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (1541.520 3813.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (1591.520 3813.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (1591.520 3763.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (1885.166 3044.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (1885.166 2994.098) TOP/BOTTOM 
+  VDD1                 24C12VIA             (1935.166 2994.098) TOP/BOTTOM 
+  GND                  24C12VIA             (3294.000 2307.000) TOP/BOTTOM 
+  GND                  24C12VIA             (3218.000 2306.000) TOP/BOTTOM 
+  GND                  24C12VIA             (3222.000 2733.000) TOP/BOTTOM 
+  GND                  24C12VIA             (1037.811 2866.272) TOP/BOTTOM 
+  GND                  24C12VIA             (1406.551 2869.035) TOP/BOTTOM 
+  GND                  24C12VIA             (1720.905 2826.524) TOP/BOTTOM 
+  GND                  24C12VIA             (2383.850 3048.114) TOP/BOTTOM 
+  GND                  24C12VIA             (3215.000 3127.000) TOP/BOTTOM 
+  GND                  24C12VIA             (3138.791 3632.869) TOP/BOTTOM 
+  GND                  24C12VIA             (2136.736 3887.748) TOP/BOTTOM 
+  GND                  24C12VIA             (3516.000 3882.000) TOP/BOTTOM 
+  GND                  24C12VIA             (3472.000 3882.000) TOP/BOTTOM 
+  GND                  24C12VIA             (2146.736 4372.748) TOP/BOTTOM 
+  12V_START1           24C12VIA             (3121.000 41.000) TOP/BOTTOM 
+  12V_START1           24C12VIA             (3100.620 5.423) TOP/BOTTOM 
+  VDD3                 24C12VIA             (2876.000 4298.000) TOP/BOTTOM 
+  VDD3                 24C12VIA             (2943.437 1884.409) TOP/BOTTOM 
+  VDD3                 24C12VIA             (2943.152 2274.802) TOP/BOTTOM 
+  VDD3                 24C12VIA             (2943.000 2700.196) TOP/BOTTOM 
+  VDD3                 24C12VIA             (763.000 3020.106) TOP/BOTTOM 
+  VDD3                 24C12VIA             (2939.257 3100.589) TOP/BOTTOM 
+  VDD3                 24C12VIA             (3310.040 4364.902) TOP/BOTTOM 
+  VDD3                 24C12VIA             (685.000 4645.098) TOP/BOTTOM 
+  VDD3                 24C12VIA             (2797.374 4588.000) TOP/BOTTOM 
+  VDD3                 24C12VIA             (2915.000 4552.252) TOP/BOTTOM 
+  VDD3                 24C12VIA             (3111.000 4662.000) TOP/BOTTOM 
+  VDD3                 24C12VIA             (684.000 4718.042) TOP/BOTTOM 
+  VDD3                 24C12VIA             (1406.659 4796.000) TOP/BOTTOM 
+  VDD3                 24C12VIA             (1200.000 4794.632) TOP/BOTTOM 
+  VDD3                 24C12VIA             (1485.027 4821.000) TOP/BOTTOM 
+  VDD3                 24C12VIA             (1444.037 4820.091) TOP/BOTTOM 
+  VDD3                 24C12VIA             (1308.000 4794.884) TOP/BOTTOM 
+  VDD3                 24C12VIA             (2913.902 4787.252) TOP/BOTTOM 
+  VDD3                 24C12VIA             (895.626 4938.276) TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       0
+  Total dangling vias:        0
+  Total antenna vias:        67
