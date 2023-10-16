@@ -1,0 +1,55 @@
+*$
+* End of RELAY_DPDT_BHV model
+
+
+* Behavioral model of a relay with contact bounce.
+
+.subckt RELAY_SPDT_BHV_BOUNCE coila coilb no nc com PARAMS: T_make = 20mSec T_break= 10mSec T_bounce=5mSec I_pull = 35ma I_drop = 25ma R_coil = 100 L_coil = 5mH R_open = 100MEG R_close= .05
+
+* electrical model of coil
+v_winding coila a1 0
+r_winding a1 a2 {R_coil}
+l_winding a2 coilb {L_coil}
+
+* make a voltage from the current
+
+e_cc cc 0 value = {limit(I(v_winding),-3*I_pull,3*I_pull)}
+r_cc cc 0 1k
+
+* use digital to create a switch with hysteresis
+
+o_mag cc 0 relay_1 DGTLNET=d digio_1
+u_dly buf dpwr dgnd d cn_no relay_2 digio_1
+u_inv inv dpwr dgnd d cn_nc relay_2 digio_1
+* model contact bounce with subckt
+x_no cn_no com no RELAY_CONTACT_BOUNCE PARAMS: T_make = {T_make} T_break= {T_break} T_bounce= {T_bounce} R_open = {R_open} R_close= {R_close}
+x_nc cn_nc com nc RELAY_CONTACT_BOUNCE PARAMS: T_make = {T_make} T_break= {T_break} T_bounce= {T_bounce} R_open = {R_open} R_close= {R_close}
+
+
+.model relay_1 doutput ( s0name="0" s0vlo={-I_pull} s0vhi={I_pull} s1name="1" s1vlo={I_drop} s1vhi={4*I_pull} s2name="1" s2vlo={-4*I_pull} s2vhi={-I_drop} timestep={T_make/1000} )
+.model relay_2 ugate ( tphlmn={T_break} tphlmx={T_break} tplhmn={T_make-0.126*T_bounce} tplhmx={T_make-0.126*T_bounce} )
+.model digio_1 uio
+
+.ends
+*
+
+.subckt RELAY_CONTACT_BOUNCE ctrl contact1 contact2 PARAMS: T_make = 20mSec T_break=10mSec T_bounce= 5mSec R_open = 100MEG R_close= .05
+
+* Simulate a fixed pattern of bounces.  Convert the digital ctrl (1=closed)
+* into an analog signal which has a rise time of T_bounce. Use a table to
+* convert this ramp into a "bounce" pattern. Then use an AtoD to square it 
+* off.  Another DtoA makes the contact itself.
+
+n_1 	c_a 0 1 relay_4 DGTLNET=ctrl digio_1
+r_1 	c_a 0 1MEG
+V1 	1 0 1
+e_bounce c_b 0 TABLE {v(c_a)} = (.05,0 .1,.55 .2,0 .3,.6 .4,0 .5,.7 .6,0 .7,.8 .8,0 .9,1)
+o_no 	c_b 0 relay_5 DGTLNET=c_1 digio_1
+n_contact contact1 contact2 contact2 relay_3 DGTLNET=c_1 digio_1
+
+.model relay_3 dinput ( s0name="0" s0tsw={T_make/1000} s0rlo={R_open*2} s0rhi={R_open*2} s1name="1" s1tsw={T_make/1000} s1rlo={R_close*2} s1rhi={R_close*2} s2name="R" s2tsw={T_make/1000} s2rlo={R_open*2} s2rhi={R_open*2} s3name="F" s3tsw={T_make/1000} s3rlo={R_open*2} s3rhi={R_open*2} s4name="X" s4tsw={T_make/1000} s4rlo={R_open*2} s4rhi={R_open*2} s5name="Z" s5tsw={T_make/1000} s5rlo={R_open*2} s5rhi={R_open*2} )
+.model relay_4 dinput ( s0name="0" s0tsw={T_make/1000} s0rlo=1 s0rhi=20 s1name="1" s1tsw={T_bounce/.665} s1rlo=20 s1rhi=1 s2name="R" s2tsw={T_make/1000} s2rlo=1 s2rhi=20 s3name="F" s3tsw={T_make/1000} s3rlo=1 s3rhi=20 s4name="X" s4tsw={T_make/1000} s4rlo=1 s4rhi=20 s5name="Z" s5tsw={T_make/1000} s5rlo=1 s5rhi=20 )
+.model relay_5 doutput ( s0name="0" s0vlo=-1 s0vhi=.5 s1name="1" s1vlo=.5 s1vhi=2 timestep={t_bounce/1000} )
+.model digio_1 uio
+
+.ends
