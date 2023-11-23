@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-OutputPath=Project Outputs for Carrier-Board-v1.0
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -765,14 +765,6 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for Carrier-Board-v1.0\Design Rule Check - Carrier-Board-v1.html
 DItemRevisionGUID=
 
-[GeneratedDocument32]
-DocumentPath=Project Outputs for Carrier-Board-v1.0\Pick Place for Carrier-Board-v1.0.csv
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for Carrier-Board-v1.0\Pick Place for Carrier-Board-v1.0.txt
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -822,7 +814,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for Carrier-Board-v1.0
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
