@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Secondary-Board-v1.0.GBR   11/23/2023  4:45:54 PM
+Gerber File Extension Report For: Secondary-Board-v1.0.GBR   12/1/2023  9:18:52 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -17,7 +17,6 @@ Layer Extension     Layer Description
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
 .GM2                Board Outline                           
-.GM3                Fabrication                             
 .GKO                Keep-Out Layer                          
 .GPT                Top Pad Master                          
 .GPB                Bottom Pad Master                       

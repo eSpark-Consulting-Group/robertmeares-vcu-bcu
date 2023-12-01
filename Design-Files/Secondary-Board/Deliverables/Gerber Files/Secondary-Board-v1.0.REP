@@ -2,38 +2,6 @@
 FileName = Secondary-Board-v1.0.GBR
 AutoAperture = True
 *************************************************************
-Generating : PWR
-      File : Secondary-Board-v1.0.G2
-
-    Adding Layer      : PWR
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D85
-    D87
-    D90
-    D151
-    D154
-    D158
-    D165
-*************************************************************
-
-*************************************************************
-Generating : Fabrication
-      File : Secondary-Board-v1.0.GM3
-
-    Adding Layer      : Fabrication
-
-
-Used DCodes :
-    D16
-    D88
-    D167
-*************************************************************
-
-*************************************************************
 Generating : Board Outline
       File : Secondary-Board-v1.0.GM2
 
@@ -41,9 +9,9 @@ Generating : Board Outline
 
 
 Used DCodes :
-    D12
+    D11
     D16
-    D166
+    D165
 *************************************************************
 
 *************************************************************
@@ -66,7 +34,7 @@ Generating : Bottom Overlay
 
 Used DCodes :
     D10
-    D86
+    D84
 *************************************************************
 
 *************************************************************
@@ -104,7 +72,118 @@ Used DCodes :
     D81
     D82
     D83
-    D84
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Secondary-Board-v1.0.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : Secondary-Board-v1.0.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Secondary-Board-v1.0.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
 *************************************************************
 
 *************************************************************
@@ -140,8 +219,6 @@ Used DCodes :
     D46
     D47
     D48
-    D78
-    D150
     D151
     D152
     D153
@@ -161,8 +238,6 @@ Generating : Bottom Pad Master
 
 
 Used DCodes :
-    D78
-    D150
     D151
     D152
     D153
@@ -182,10 +257,10 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D78
+    D84
     D85
-    D86
-    D150
+    D87
+    D90
     D151
     D152
     D153
@@ -194,6 +269,50 @@ Used DCodes :
     D156
     D157
     D158
+*************************************************************
+
+*************************************************************
+Generating : PWR
+      File : Secondary-Board-v1.0.G2
+
+    Adding Layer      : PWR
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D87
+    D88
+    D90
+    D151
+    D153
+    D155
+    D158
+*************************************************************
+
+*************************************************************
+Generating : GND
+      File : Secondary-Board-v1.0.G1
+
+    Adding Layer      : GND
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D151
+    D152
+    D153
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+    D162
+    D163
+    D164
 *************************************************************
 
 *************************************************************
@@ -229,7 +348,7 @@ Used DCodes :
     D46
     D47
     D48
-    D78
+    D84
     D85
     D86
     D87
@@ -307,144 +426,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Solder
-      File : Secondary-Board-v1.0.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : Secondary-Board-v1.0.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : Secondary-Board-v1.0.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-*************************************************************
-
-*************************************************************
-Generating : GND
-      File : Secondary-Board-v1.0.G1
-
-    Adding Layer      : GND
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D151
-    D152
-    D154
-    D155
-    D157
-    D158
-    D159
-    D160
-    D161
-    D162
-    D163
-    D164
-    D165
-*************************************************************
-
-*************************************************************
 Generating : Drill Drawing
       File : Secondary-Board-v1.0.GD1
 
@@ -455,9 +436,9 @@ Generating : Drill Drawing
 
 Used DCodes :
     D16
-    D88
-    D168
-    D169
+    D85
+    D166
+    D167
 *************************************************************
 
 *************************************************************
@@ -470,6 +451,6 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D168
+    D166
 *************************************************************
 
