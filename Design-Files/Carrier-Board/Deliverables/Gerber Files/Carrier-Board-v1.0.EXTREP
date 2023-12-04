@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Carrier-Board-v1.0.GBR   11/23/2023  2:35:35 PM
+Gerber File Extension Report For: Carrier-Board-v1.0.GBR   12/4/2023  9:27:20 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -21,7 +21,6 @@ Layer Extension     Layer Description
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
 .GM2                Board Outline                           
-.GM3                Fabrication                             
 .GM13               Mechanical 13                           
 .GM15               Mechanical 15                           
 .GKO                Keep-Out Layer                          
